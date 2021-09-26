@@ -1,0 +1,125 @@
+@media(max-width:1000px){
+    .phone {
+        display: none;
+    }
+
+
+    .Instant-Exchange {
+        position: absolute;
+        left: 81%;
+        transform: translate(-81%, -61%);
+        top: 61%;
+    }
+    .Experts-support {
+        position: absolute;
+        top: 14%;
+        left: 81%;
+        transform: translate(-81%, -14%);
+    }
+    .wallet {
+        position: absolute;
+        left: 19%;
+        transform: translate(-19%, -0%);
+        bottom: 0;
+    }
+    .Recuring-Buys {
+        position: absolute;
+        left: 80%;
+        bottom: -10px;
+        transform: translate(-80%, -10%);
+    }
+
+.phone-1 {
+    position: absolute;
+    top: 46%;
+    left: 20%;
+    transform: translate(-46%, -20%);
+}
+
+.safe {
+    top: 18%;
+    position: absolute;
+    left: 15%;
+    transform: translate(-18px, -15px);
+}
+.Chart-section img {
+    width: 50%;
+}
+.Experts-support p, .Instant-Exchange p, .Recuring-Buys p {
+    font-size: 12px;
+}
+}
+@media(max-width:767px){
+    .Large_btn_join{
+        display: inherit;
+    }
+    .btn_join{
+        display: none;
+    }
+    .top-header{
+        display: none;
+    }
+    .instraction_item{
+        margin-bottom: 20px;
+    }
+    .con{
+        width: 100%;
+        
+        margin: auto;
+                
+        margin-bottom: 66px;
+    }
+    .feature-section h1{
+        font-size: 27px;
+    }
+    .feature-section span{
+        margin: auto;
+    }
+    .Quetion i {
+        position: absolute;
+        padding: 15px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        bottom: 0;
+        right: 0;
+        font-size: 16px;
+    }
+    .Feedback_img {
+        width: 24%;
+    position: relative;
+    }
+    .Blog_img {
+        margin-top: 20px;
+    }
+
+}
+
+@media(max-width:575px){
+    .feature-section h1{
+        font-size: 27px;
+    }
+    .feature-section span{
+        margin: auto;
+    }
+    .menu ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .navbar-nav .nav-item .nav-link{
+        display: inline-block;
+    }
+    .navbar-nav .nav-item {
+        padding: 0;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+}
+@media(max-width:320px){
+.count-2 p{
+
+font-size: 15px;
+
+text-transform: capitalize;
+}
+}
